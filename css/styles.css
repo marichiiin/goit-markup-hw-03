@@ -1,24 +1,23 @@
 :root {
     /*Colors*/
-    --iris: #4D5AE5;
-    --navyblue: #2E2F42;
-    --black: black;
-    --ocean: #404BBF;
-    --white: #fff;
-    --slate: #434455;
-    --cornflower: #E7E9FC;
-    --cloud: #F4F4FD;
-    --green: #31d0aa;
-    --lightslate: #8e8f99;
-    --navybluemodal: #2e2f42;
-    --grey: #2e2f42;
-    --dairy: #fcfcfc;
+    --iris: #4D5AE5; /*Primary Brand*/
+    --ocean: #404BBF; /*Pressed state*/
+    --navyblue: #2E2F42; /*Dark*/ 
+    --green: #31d0aa; /*Success*/
+    --slate: #434455; /*Text*/
+    --lightslate: #8e8f99; /*Subtle Text*/
+    --cornflower: #E7E9FC; /*Accent*/
+    --cloud: #F4F4FD; /*Light*/
+    --navybluemodal: #2e2f42; /*Modal overlay*/
+    --grey: #2e2f42; /*Hero background*/
+    --white: #fff; /*White background*/
+    --dairy: #fcfcfc; /*Modal Background*/
     
     /*Fonts*/
     --font-logo: 'Raleway';
     --font-general: 'Roboto';
 }
-
+ 
 /*Global*/
 * {
     margin: 0;
