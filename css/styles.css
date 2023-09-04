@@ -50,11 +50,19 @@ address {
     font-style: normal;
 }
 
+.container {
+    width: 1158px;
+    margin: 0 auto;
+}
+
 /*----------Studio Page----------*/
 /*Navigation Tab*/
 .header {
     color: var(--white);
     border-bottom: 1px solid var(--cornflower);
+}
+.header-container {
+    display: flex;
 }
 .nav-logo {
     color: var(--iris);
