@@ -19,7 +19,9 @@
 }
  
 /*Global*/
-* {
+*,
+*::before,
+*::after {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -45,7 +47,6 @@ button {
     cursor: pointer;
 }
 
-
 address {
     font-style: normal;
 }
@@ -61,8 +62,9 @@ address {
     color: var(--white);
     border-bottom: 1px solid var(--cornflower);
 }
-.header-container {
-    display: flex;
+
+.nav {
+    display: inline-block;
 }
 .nav-logo {
     color: var(--iris);
@@ -78,6 +80,7 @@ address {
     color: var(--navyblue);
 }
 .nav-list {
+    display: inline-block;
     color: var(--grey);
     width: 1440px;
     height: 72px;
