@@ -61,9 +61,15 @@ address {
 .header {
     color: var(--white);
     border-bottom: 1px solid var(--cornflower);
+    
+}
+
+.header-container {
+    display: flex;
 }
 .nav-tab {
-    display: inline-block;
+    /* display: inline-block; */
+    display: flex;
 }
 
 .nav-logo {
@@ -81,12 +87,13 @@ address {
 }
 .nav-list {
     color: var(--grey);
-    display: inline-block;
+    /* display: inline-block; */
+    display: flex;
 }
 
 .nav-list-item,
 .address-list-item {
-    display: inline-block;
+    /* display: inline-block; */
 }
 
 .nav-item-link {
@@ -98,11 +105,14 @@ address {
 }
 
 .address-tab {
-    display: inline-block;
+    /* display: inline-block; */
+    /* display: flex; */
 }
 
 .address-list {
-    display: inline-block;
+    /* display: inline-block; */
+    display: flex;
+   justify-content: flex-end;
     color: var(--slate);
     font-size: 16px;
     line-height: 24px;
@@ -223,7 +233,7 @@ address {
 
 /*----------Portfolio Page----------*/
 .filter-list-item {
-    display: inline-block;
+    /* display: inline-block; */
 }
 
 .filter-item-button-type {
