@@ -301,7 +301,7 @@ address {
     gap: 24px;
     flex-shrink: 0;
     flex-wrap: wrap;
-    outline: 1px solid var(--cornflower);
+    border-bottom: 1px solid var(--cornflower);
     
 }
 
