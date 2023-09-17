@@ -61,7 +61,7 @@ address {
 .header {
     color: var(--white);
     border-bottom: 1px solid var(--cornflower);
-    padding: 24px 15px;
+    padding: 24px 0;
 }
 .header-container {
     display: flex;
@@ -157,7 +157,7 @@ address {
 
 /*Features Section*/
 .features {
-    padding: 120px 15px 0 15px;
+    padding: 120px 0;
 }
 
 .features-list {
@@ -182,7 +182,7 @@ address {
 
 /*What We are Doing*/
 .activities {
-    padding: 120px 15px 120px 15px;
+    padding: 120px 0;
 }
 .activities-title, .teams-title {
     text-align: center;
@@ -200,7 +200,7 @@ address {
 /*Our Team*/
 .teams {
     background-color: var(--cloud);
-    padding: 120px 15px 120px 15px;
+    padding: 120px 0;
 }
 
 .teams-list {
@@ -209,6 +209,9 @@ address {
 }
 .teams-item-card-desc {
     margin: 32px auto;
+    border-radius: 0px 0px 4px 4px;
+    background: var(--white);
+    box-shadow: 0px 2px 1px 0px rgba(46, 47, 66, 0.08), 0px 1px 1px 0px rgba(46, 47, 66, 0.16), 0px 1px 6px 0px rgba(46, 47, 66, 0.08);
 }
 .teams-item-title {
     text-align: center;
@@ -233,7 +236,7 @@ address {
 }
 
 .footer-container {
-    padding: 100px 15px;
+    padding: 100px 0;
 }
 .footer-logo {
     font-family: var(--font-logo);
@@ -264,7 +267,7 @@ address {
 
 /*----------Start of Portfolio Page----------*/
 .portfolio-filter-container {
-    padding: 96px 15px 72px 15px;
+    padding: 96px 0 72px 0;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
@@ -294,8 +297,6 @@ address {
     box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.12), 0px 2px 1px 0px rgba(0, 0, 0, 0.08), 0px 3px 1px 0px rgba(0, 0, 0, 0.10);
 }
 .portfolio-container {
-    padding-left: 15px;
-    padding-right: 15px;
     padding-bottom: 120px;
 }
 .portfolio-list {
@@ -305,18 +306,20 @@ address {
     gap: 24px;
     flex-shrink: 0;
     flex-wrap: wrap;
-    border-bottom: 1px solid var(--cornflower);
-    
 }
 
 .portfolio-list-items:nth-child(-n+6) {
     margin-bottom: 24px;
 }
 .portfolio-card-desc {
-    margin: 32px 16px;
+    padding: 32px 16px;
     display: flex;
     flex-direction: column;
     gap: 8px;
+    border-left: 1px solid var(--cornflower);
+    border-bottom: 1px solid var(--cornflower);
+    border-right: 1px solid var(--cornflower);
+    background: var(--white);
 }
 .portfolio-list-title {
     font-size: 20px;
